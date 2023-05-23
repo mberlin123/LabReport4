@@ -9,7 +9,10 @@ In this step, the user logs into ieng6 using the ssh command and the user’s ie
 
 ![!Image1](screenshot11.png)
 
-**Keys Pressed: "ssh cs15lsp23bw@ieng6.ucsd.edu**
+**Keys Pressed: "ssh cs15lsp23bw@ieng6.ucsd.edu"**
+
+This step only contains one command which logs the user into the SSH server. Because of SSH keygen, no password is required.
+Note: As with following Bash commands in this lab report, it is assumed that "Enter" is pressed after each command.
 
 ### Step 5: Clone your fork of the repository from your Github account
 
@@ -20,6 +23,8 @@ The user then enters the downloaded folder using the "cd" command so they can pe
 
 **Keys Pressed: "git clone git@github.com:mberlin123/lab7.git", "cd lab7"**
 
+The first command in this step clones the github repository to the SSH server. The second command changes the current directory to the download folder.
+
 ### Step 6: Run the tests, demonstrating that they fail
 
 In this step, the "bash test.sh" command is run and fails due to an error in the "ListExamples.java" file.
@@ -27,6 +32,8 @@ In this step, the "bash test.sh" command is run and fails due to an error in the
 ![!Image1](screenshot13.png)
 
 **Keys Pressed: "bash test.sh"**
+
+This command runs the "test.sh" script which promptly fails due to a bug in the code.
 
 ### Step 7: Edit the code file to fix the failing test
 
@@ -37,6 +44,8 @@ In this step, the user fixes the bug in the code file using vim.
 **Keys Pressed: "vim ListExamples.java", Down-Arrow, Right-Arrow, I, Backspace, 2,
 Escape, ":wq"**
 
+The commands in this step are the most complicated due to the extensive nature of the Vim command system. The first command opens Vim in Normal mode. Due to the arrow cursor being positioned close to the bug in the code, only a "Down-Arrow" and "Right-Arrow" keypress are needed to reach the bug in the code. After, "I" is pressed to enter Insert Mode. At this point, "Backspace" and "2" are pressed to fix the bug. Finally, "Escape" is pressed to re-enter normal mode and ":wq" is pressed to save and exit Vim.
+
 ### Step 8: Run the tests, demonstrating that they now succeed
 
 In this step, the "bash test.sh" command is run again and this time succeeds as the bug has been fixed.
@@ -45,6 +54,8 @@ In this step, the "bash test.sh" command is run again and this time succeeds as 
 
 **Keys Pressed: Up, Up** (To run **"bash test.sh"**)
 
+In this step, due to the same command being run in Step 6, only two "Up-Arrow" keypresses are required (and then "Enter" of course as with all other commands".
+
 ### Step 9: Commit and push the resulting change to your Github account
 
 In the final step, the changes are uploaded to the user's github repository. 
@@ -52,3 +63,5 @@ In the final step, the changes are uploaded to the user's github repository.
 ![!Image1](screenshotfinal.png)
 
 **Keys Pressed: "git add ListExamples.java", "git commit -m "Fixed ListExamples.java"", "git push"**
+
+The first command adds "ListExamples.java" to the tracked files. The changes to the file are then saved with the second command. Finally, the changes are uploaded to the github repository with the final command.
