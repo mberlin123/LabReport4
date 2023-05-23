@@ -3,8 +3,6 @@
 
 ![!Image1](screenshot11.png)
 
-![!Image1](screenshot12.png)
-
 ![!Image1](screenshot13.png)
 
 ![!Image1](screenshot14.png)
