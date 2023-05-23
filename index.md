@@ -30,4 +30,4 @@ Escape, ":wq"**
 ### Step 9: Commit and push the resulting change to your Github account
 ![!Image1](screenshotfinal.png)
 
-**Keys Pressed: "git add ListExamples.java", "git commit", "git push"**
+**Keys Pressed: "git add ListExamples.java", "git commit -m "Fixed ListExamples.java"", "git push"**
