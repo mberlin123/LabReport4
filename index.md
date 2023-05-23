@@ -1,7 +1,7 @@
 # Lab Report 4
 ###
 
-[Image1][screenshot11.png]
+(!Image1)[screenshot11.png]
 
 [Image1][screenshot12.png]
 
