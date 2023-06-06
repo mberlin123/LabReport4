@@ -41,7 +41,7 @@ In this step, the user fixes the bug in the code file using vim.
 ![!Image1](screenshot14.png)
 
 **Keys Pressed: `"vim ListExamples.java"`, `<Enter>`, `<Down-Arrow> (x1)`, `<Right-Arrow> (x1)`, `<I> (x1)`, `<Backspace> (x1)`, `"2"`,
-`<Escape> (x2)`, `":wq"`**
+`<Escape> (x1)`, `":wq"`, `<Enter> (x1)`**
 
 The commands in this step are the most complicated due to the extensive nature of the Vim command system. The first command opens Vim in Normal mode. Due to the arrow cursor being positioned close to the bug in the code, only a "Down-Arrow" and "Right-Arrow" keypress are needed to reach the bug in the code. After, "I" is pressed to enter Insert Mode. At this point, "Backspace" and "2" are pressed to fix the bug. Finally, "Escape" is pressed to re-enter normal mode and ":wq" is pressed to save and exit Vim.
 
